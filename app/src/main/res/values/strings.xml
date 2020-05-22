@@ -10,4 +10,6 @@
     <string name="skip_text">Skip</string>
     <string name="got_it_text">Got it</string>
     <string name="end_game_text">End Game</string>
+    <string name="you_score_text">You Scored</string>
+    <string name="play_again">play again</string>
 </resources>
