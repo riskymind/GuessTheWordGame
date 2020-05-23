@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 
 import com.example.guesstheword.R
 import com.example.guesstheword.databinding.TitleFragmentBinding
@@ -21,6 +22,10 @@ class TitleFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val binding: TitleFragmentBinding = DataBindingUtil.inflate(inflater, R.layout.title_fragment, container, false)
+
+        binding.playGameButton.setOnClickListener {
+            findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+        }
 
         return binding.root
     }
