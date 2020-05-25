@@ -12,4 +12,6 @@
     <string name="end_game_text">End Game</string>
     <string name="you_score_text">You Scored</string>
     <string name="play_again">play again</string>
+    <string name="word_format">\"%s\"</string>
+    <string name="score_format">Current Score: %d</string>
 </resources>
