@@ -14,4 +14,6 @@
     <string name="play_again">play again</string>
     <string name="word_format">\"%s\"</string>
     <string name="score_format">Current Score: %d</string>
+    <string name="about_text_string">GuessTheWord is a two-player charades-style game, where the players collaborate to achieve the highest score possible. The first player looks at the words in the app and acts each one out in turn, making sure not to show the word to the second player. The second player tries to guess the word.</string>
+    <string name="about">About</string>
 </resources>
